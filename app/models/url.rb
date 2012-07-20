@@ -1,3 +1,3 @@
 class Url < ActiveRecord::Base
-  attr_accessible :link
+  attr_accessible :link, :shortcode
 end

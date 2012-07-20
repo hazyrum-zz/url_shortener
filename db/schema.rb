@@ -11,12 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120720221028) do
+ActiveRecord::Schema.define(:version => 20120720224105) do
 
   create_table "urls", :force => true do |t|
     t.string   "link"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "shortcode"
   end
 
 end
